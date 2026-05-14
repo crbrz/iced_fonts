@@ -61,8 +61,8 @@ iced_core.workspace = true
 iced_widget.workspace = true
 
 [workspace.dependencies]
-iced_core = { git = "https://github.com/iced-rs/iced.git", branch = "master" } # Iced core has the text widget, which is the only one we need.
-iced_widget = { git = "https://github.com/iced-rs/iced.git", branch = "master" } # TODO remove
+iced_core = { git = "https://github.com/crbrz/iced.git", branch = "patch" } # Iced core has the text widget, which is the only one we need.
+iced_widget = { git = "https://github.com/crbrz/iced.git", branch = "patch" } # TODO remove
 proc-macro2 = "1"
 quote = "1"
 syn = "2"
